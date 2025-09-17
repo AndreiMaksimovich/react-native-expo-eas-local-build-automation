@@ -1,3 +1,4 @@
 builds/*
 react-native-proect/*
 credentials/*
+!.gitkeep
