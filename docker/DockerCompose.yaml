@@ -1,0 +1,11 @@
+services:
+  unity-webgl-nginx:
+    container_name: "react-native-project-web-preview"
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile
+    image: "react-native-project-web-preview"
+    ports:
+      - "80:80"
+    environment:
+      - NGINX_PORT=80 
